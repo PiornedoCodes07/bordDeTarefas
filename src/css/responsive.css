@@ -1,0 +1,42 @@
+/*DESCKTOP*/
+@media only screen and (min-width: 1024px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        width: 40.625rem;
+    }
+    h1{
+        font-size: 2.5rem;
+        padding:1.5rem 0 1.5rem 2rem;
+    }
+    #form{
+        display: flex;
+        width: 36.625rem;
+        height: 3.125rem;
+    }
+    #form input{
+        height: 100%;
+        width: 15.90625rem;
+    }
+    #form button{
+        height: 2.8125rem;
+        width: 2.8125rem;
+        padding: 0.78125rem 1.03125rem;
+    }
+    .task{
+        display: flex;
+        flex-direction: row;
+        width: 36.625rem;
+        gap: 7rem;
+    }
+
+}
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){}
+
+/*MOBILE*/
+
+@media only screen and (max-width: 768px){}

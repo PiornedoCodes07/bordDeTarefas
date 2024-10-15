@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bord De Tarefas</title>
+    <!--LINK ICON-->
+    <link rel="shortcut icon" href="/src/assets/icon.ico" type="image/x-icon">
+    <!--LINK FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!--LINK CSS & JS-->
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+    <script defer src="/src/js/script.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Board de tarefas</h1>
+        <div id="container">
+            <form id="form">
+                <input type="text" placeholder="Nome da tarefa">
+                <input type="text" placeholder="Etiqueta">
+                <button>+</button>
+            </form>
+            <section id="boardTasksSection">
+                <ul>
+                    <li class="task">
+                        <div class="taskDetails">
+                            <h6>Implementar tela de listagem de tarefas</h6>
+                            <span>frontend</span>
+                            <p>Criado em: 21/08/2024</p>
+                        </div>
+                        <div class="taskButton">
+                            <button>Concluir</button>
+                        </div>
+                    </li>
+                    <li class="task">
+                        <div class="taskDetails">
+                            <h6>Criar endpoint para cadastro de tarefas</h6>
+                            <span>backend</span>
+                            <p>Criado em: 21/08/2024</p>
+                        </div>
+                        <div class="taskButton">
+                            <button>Concluir</button>
+                        </div>
+                    </li>
+                    <li class="task">
+                        <div class="taskDetails complete">
+                            <h6>Implementar protótipo da listagem de tarefas</h6>
+                            <span>ux</span>
+                            <p>Criado em: 21/08/2024</p>
+                        </div>
+                        <div class="taskButton">
+                            <img src="/src/assets/checked.svg" alt="">
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+            </section>
+        </div>
+        <footer><p>1 tarefa concluída</p></footer>
+    </main>
+</body>
+</html>
